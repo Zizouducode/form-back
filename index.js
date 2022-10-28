@@ -32,7 +32,7 @@ app.post("/form", async (req, res) => {
     const messageData = {
       from: `${req.body.firstname} ${req.body.lastname} <${req.body.email}>`,
       to: "hamga.karim@gmail.com",
-      subjet: `${req.body.subject}`,
+      subject: `${req.body.subject}`,
       text: req.body.message,
     };
 
