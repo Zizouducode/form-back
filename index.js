@@ -55,6 +55,6 @@ app.all("*", (req, res) => {
 });
 
 //Start server
-app.listen(4000, () => {
+app.listen(process.env.PORT, () => {
   console.log("Server start");
 });
